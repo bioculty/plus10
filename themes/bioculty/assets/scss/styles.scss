@@ -1,0 +1,24 @@
+@import "bootstrap/bootstrap";
+
+.content-wrapper {
+  background-color: #4F91CD;
+  color: white;
+  padding: 200px;
+  .btn-wrapper {
+    margin-top: 20px;
+  }
+  .big-text {
+    font-size: 32pt;
+  }
+  .small-text {
+    font-size:  12pt;
+  }
+}
+
+.content2-wrapper {
+  /* Radial Gradient fundo */
+  background: radial-gradient(27.33% 55.28% at 98.78% 100.02%, rgba(1, 139, 204, 0.3) 0%, rgba(1, 139, 204, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(37.4% 99.91% at 0% 0%, rgba(1, 139, 204, 0.3) 0%, rgba(1, 139, 204, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #F8F8F8;
+  height: 500px;
+  color: #4F91CD;
+  padding-top:112px;
+}

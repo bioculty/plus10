@@ -1,0 +1,40 @@
+baseURL = "http://bioculty.org/"
+languageCode = "pt-br"
+title = "Bioculty +10"
+theme = "bioculty"
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Como Ajudar"
+    pre = "help-circle"
+    url = "/help"
+    weight = 2
+  [[menu.main]]
+    name = "Quem Somos"
+    pre = "pen-tool"
+    url = "/who"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    pre = "pen-tool"
+    url = "/blog"
+    weight = 4
+  [[menu.main]]
+    name = "Ser Patrocinador Premium"
+    pre = "dollar-sign"
+    url = "/premium"
+    weight = 4
+    [menu.main.params]
+      class = "highlight-menu-item"
+
+[module]
+  [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+
+[[resources]]
+  name = 'iconPlus10'
+  src = 'static/images/iconPlus10.png'
